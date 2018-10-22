@@ -1,0 +1,12 @@
+.navbar {
+    background-color:LightSkyBlue !important;
+    font-weight: 1000;
+    text-transform: uppercase;
+}
+.navbar a{
+    color:White !important;
+    opacity: .5;
+}
+.navbar a:hover{
+    color:purple !important;
+}
