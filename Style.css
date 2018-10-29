@@ -1,13 +1,110 @@
 .navbar {
     background-color:LightSkyBlue !important;
-    font-weight: 1000;
+    font-weight: 900;
     text-transform: uppercase;
+}
+p
+{
+    font-size: 25px;
+    line-height: 21px;
+    color:#0F0;
+}
+.btn
+{
+    transition: all 300ms ease-in;
+}
+.btn:hover
+{
+    background-color:DarkGoldenRod;
+    color:Blue;
+    border:1px solid Red;
+}
+body
+{
+    overflow-x: hidden;
+    overflow-y: scroll;
+    font-family: fantasy;
+}
+ul, li
+{
+    list-style:circle;
+    display:inline-block;
+}
+a
+{
+    text-decoration:none;
+    transition:all 500ms ease-in;
+}
+.navbar a:visited
+{
+    color:#00FF00 !important;
+}
+a:hover
+{
+    text-decoration:underline !important;
+}
+
+h1,h2,h4
+{
+    font-family: 'PT Sans Narrow', Arial, sans-serif; 
+    text-transform:uppercase;
+    font-weight:800;
 }
 .navbar a{
     color:White !important;
-    opacity: .5;
+    
 }
-.navbar a:hover{
+.navbar a:hover
+{
     color:purple !important;
+    text-transform:none !important;
 }
-#services h2
+
+
+/* Header Styles */
+.header
+{
+    height:800px;
+    margin-top:50px;
+    width:100%;
+    padding-right:30px;
+    padding-top: 10px;
+    padding-left:10px;
+    background-image: url(https://www.jllrealviews.com/wp-content/uploads/2018/04/Glass-finish-of-choice-for-skyscrapers.jpg);
+    background-size: 100%
+}
+.header img
+{
+    height:250px;
+    width:250px;
+    margin-top:40px;
+    margin-bottom:10px; 
+}
+.header h1
+{
+    color:#000;
+}
+.header .btn
+{
+    margin-top:20px;
+    border-radius:0px;
+}
+
+/* Services Styles */
+.services
+{
+    padding-top:50px;
+    text-align:center;
+}
+.services h2 .services h4
+{
+    color:#DC623B;
+    font-size:25px;
+    text-decoration-line: underline;
+    text-decoration-style:wavy;
+}
+.services p
+{
+    color:#632511;
+    padding-bottom: 40px;
+}
